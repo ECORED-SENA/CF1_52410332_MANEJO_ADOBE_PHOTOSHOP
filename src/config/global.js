@@ -1,17 +1,30 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Conceptos básicos de Photoshop',
+    descripcionCurso:
+      'El componente formativo presenta una guía detallada sobre el manejo de Adobe Photoshop, incluyendo conceptos básicos, personalización del área de trabajo, manejo de herramientas y opciones de edición avanzada. Se enfoca en describir cómo utilizar las funcionalidades de Photoshop para diseñadores, fotógrafos e ilustradores, con énfasis en la mejora continua de las imágenes y la eficiencia en el proceso de edición gráfica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
       },
     ],
   },
@@ -31,27 +44,73 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Conceptos básicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: '¿Para qué sirve?',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Manejo del color',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Resolución de imágenes',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Formatos',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Espacios de trabajo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Personalización del área de trabajo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Disposición de paneles',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Crear un nuevo documento con Photoshop',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Abrir imágenes',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Menú contextual',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Tamaño y peso de los archivos',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas',
         desarrolloContenidos: true,
       },
     ],

@@ -1,20 +1,82 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 25%
+    right: 90%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 40%
+    right: 70%
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 30%
+    right: 15%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 70%
+  &-5
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 0%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.tabs-a__tab
+  background-color: #31A8FF
+.tabs-a__tab:hover
+  background-color: #FD9E82 !important
+.tabs-a.color-primario .tabs-a__tab__selected
+  background-color: #FD9E82 !important
+.tabs-a.color-primario .tabs-a__tab__selected:before
+  background-color: #FD9E82 !important
+.tarjeta.color-acento-botones
+  background-color: #DDD4F5
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/intro/img1.png)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position: bottom
+    background-size: cover
+    margin-bottom: -48px
+    @media screen and ( max-width: $bp-max-sm )
+      margin-bottom: -24px
+  &-c2
+    background-color: #FBD8D1
+  &-c3
+    background-color: #E9F5FF
+  &-c4
+    background-color: #FDEFEC
+  &-c5
+    background-color: #A0EEF9
+    background-image: url(../assets/curso/tema1/img4.svg)
+    border-radius: 15px
+    background-repeat: no-repeat
+    background-position: right bottom
+    height: 100%
+    transition: all 0.3s ease-in-out
+  &-c5:hover
+    background-color: #FBD8D1
+  &-c6
+    background-color: #ACDBFF
+    border: 1px solid #31A8FF
