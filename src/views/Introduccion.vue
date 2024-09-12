@@ -31,7 +31,6 @@
             .col-lg-6(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/intro/img2.png", style="width: 600px", alt="").m-auto
-              
     
 </template>
 
