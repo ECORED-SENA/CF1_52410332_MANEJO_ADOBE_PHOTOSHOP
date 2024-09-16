@@ -161,32 +161,97 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Espacios de trabajo',
+      referencia:
+        'Tripiyon Tutoriales - Photoshop en español. (2018). Cómo organizar los espacios de trabajo en Photoshop (video). Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=gtXCRZgIygg',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Herramientas',
+      referencia:
+        'Designare Studio. (2021). Como usar la Caja de Herramientas en Photoshop Categorías Distribución y Funciones (video). YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=Rph2FqS4SIg&list=PLH_xXLCrZ_TmKkYwerSdDYtgqXvxvDvzi',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Canales',
+      significado:
+        'imágenes en escala de grises que almacenan diferentes tipos de datos sobre los colores de una imagen.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Capas',
+      significado:
+        'herramientas que permiten organizar diferentes elementos de una imagen en Photoshop, similares a acetatos transparentes.',
+    },
+    {
+      termino: 'Color Lab',
+      significado:
+        'modo de color que se basa en la percepción humana, con un espacio de luminosidad que varía entre 0 y 100.',
+    },
+    {
+      termino: 'DPI',
+      significado:
+        'puntos por pulgada que indican la cantidad de gotas de tinta en una pulgada, utilizado en impresoras.',
+    },
+    {
+      termino: 'Formato PSD',
+      significado:
+        'formato de archivo propio de Photoshop que permite guardar el trabajo en capas, canales y más sin modificaciones.',
+    },
+    {
+      termino: 'Píxeles por pulgada (PPI)',
+      significado:
+        'medida de la resolución de una imagen, indicando la cantidad de píxeles en una pulgada.',
+    },
+    {
+      termino: 'RGB',
+      significado:
+        'modo de color predeterminado en Photoshop, utilizado principalmente en pantallas digitales.',
+    },
+    {
+      termino: 'Selección rápida',
+      significado:
+        'herramienta que permite crear selecciones de manera rápida utilizando una punta de pincel redonda ajustable.',
+    },
+    {
+      termino: 'Trazados',
+      significado:
+        'segmentos rectos o curvos en Photoshop, formados por puntos de ancla y líneas de dirección.',
+    },
+    {
+      termino: 'Varita mágica',
+      significado:
+        'herramienta que selecciona áreas de colores similares en una imagen con un solo clic.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Adobe Community Help. (s.f.). Modos de color. ',
+      link: 'https://helpx.adobe.com/es/photoshop/using/color-modes.html',
+    },
+    {
+      referencia:
+        'Adobe Community Help. (s.f.). Tamaño y resolución de imágenes. ',
+      link:
+        'https://helpx.adobe.com/es/photoshop/using/image-size-resolution.html',
+    },
+    {
+      referencia:
+        'Adobe Systems Software Ireland Ltd. (2015). Formación y asistencia de Adobe Stock / Preguntas frecuentes. ',
+      link: 'https://helpx.adobe.com/es/stock/faq.html',
+    },
+    {
+      referencia:
+        'Adobe Systems Software Ireland Ltd. (2015). Formación y asistencia de Adobe Stock / Preguntas frecuentes. ',
+      link: 'https://helpx.adobe.com/es/stock/faq.html',
+    },
+    {
+      referencia: 'Adobe. (2023). Galerías de herramientas. ',
+      link: 'https://helpx.adobe.com/co/photoshop/using/tools.html ',
     },
   ],
   creditos: [
@@ -209,8 +274,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carlos Andrés Díaz Botero',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -219,30 +289,30 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Juan Daniel Polanco Muñoz',
+          cargo: 'Diseñador de contenidos digitales ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Álvarez',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y productor audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador y vinculador de recursos educativos digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
