@@ -18,7 +18,7 @@
                     figure
                       img(src="@/assets/curso/intro/img1.svg", style="width: 70px", alt="").m-auto
                   .col
-                    p.mb-0 Adobe Photoshop se ha consolidado como una herramienta fundamental en el campo del diseño gráfico y la edición de imágenes, ofreciendo un amplio abanico de funciones que permiten tanto a profesionales como a #[i amateurs], llevar a cabo proyectos con altos estándares de calidad. Este software, desarrollado por Adobe, es utilizado en diversas industrias, desde la publicidad hasta la fotografía y la ilustración, gracias a su versatilidad y capacidad de adaptación a distintas necesidades creativas.
+                    p.mb-0 Adobe Photoshop se ha consolidado como una herramienta fundamental en el campo del diseño gráfico y la edición de imágenes, ofreciendo un amplio abanico de funciones que permiten tanto a profesionales como a #[i amateurs], llevar a cabo proyectos con altos estándares de calidad. Este #[i software], desarrollado por Adobe, es utilizado en diversas industrias, desde la publicidad hasta la fotografía y la ilustración, gracias a su versatilidad y capacidad de adaptación a distintas necesidades creativas.
             .col-lg-3(data-aos="fade-left")
               .p-4.h-100.bg-c3
                 .row.align-items-center.h-100

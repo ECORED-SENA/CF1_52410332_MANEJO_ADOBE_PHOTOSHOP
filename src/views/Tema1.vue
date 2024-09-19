@@ -104,7 +104,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.mb-1 #[b.txt-c1 Realizar selecciones en la composiciones]
+                  p.mb-1 #[b.txt-c1 Realizar selecciones en las composiciones]
                   p.text-small Para obtener más información sobre las diferentes herramientas de selección y cómo utilizarlas, consulte el siguiente enlace. 
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://helpx.adobe.com/co/photoshop/using/making-quick-selections.html#selection-improvements" target="_blank")
@@ -141,7 +141,7 @@
               .row.align-items-center
                 .col-md.mb-4.mb-md-0
                   p #[b Novedades de Adobe Photoshop]
-                  p.mb-0 Adobe Photoshop está en constante evolución, mejorando y añadiendo nuevas herramientas para ofrecer una experiencia de edición de imágenes más completa y eficiente. Para mantenerse actualizado con las últimas innovaciones y mejoras, le recomendamos consultar regularmente el siguiente enlace, el cual lo llevará a las  Novedades de Adobe Photoshop. Aquí encontrará información sobre las actualizaciones más recientes y las nuevas funcionalidades que pueden optimizar su trabajo creativo.
+                  p.mb-0 Adobe Photoshop está en constante evolución, mejorando y añadiendo nuevas herramientas para ofrecer una experiencia de edición de imágenes más completa y eficiente. Para mantenerse actualizado con las últimas innovaciones y mejoras, le recomendamos consultar regularmente el siguiente enlace, el cual lo llevará a las novedades de Adobe Photoshop. Aquí encontrará información sobre las actualizaciones más recientes y las nuevas funcionalidades que pueden optimizar su trabajo creativo.
                 .col-md-auto
                   a.boton.color-acento-botones(href="https://helpx.adobe.com/co/photoshop/using/whats-new.html" target="_blank")
                     span Ver enlace 
@@ -209,7 +209,7 @@
                   .col-auto.bg-c6
                     .p-2
                       p.mb-0 #[b Escala de grises]
-                p El modo Escala de grises utiliza distintos tonos de gris en una imagen. En imágenes de 8 bits, puede haber hasta 256 tonos de gris. Cada píxel de una imagen en escala de grises tiene un valor de brillo comprendido entre 0 (negro) y 255 (blanco). En imágenes de 16 y 32 bits, el número de tonos de una imagen es mucho mayor que en las imágenes de 8 bits.
+                p El modo Escala de grises utiliza distintos tonos de gris en una imagen. En imágenes de 8 #[i bits], puede haber hasta 256 tonos de gris. Cada píxel de una imagen en escala de grises tiene un valor de brillo comprendido entre 0 (negro) y 255 (blanco). En imágenes de 16 y 32 #[i bits], el número de tonos de una imagen es mucho mayor que en las imágenes de 8 #[i bits].
                 .row
                   .col-12
                     .p-4.bg-c8
@@ -222,7 +222,7 @@
                   .col-auto.bg-c6
                     .p-2
                       p.mb-0 #[b Mapa de #[i bits]]
-                p El modo Mapa de bits utiliza uno de los dos valores de color (blanco o negro) para representar los píxeles de una imagen. Las imágenes en este modo se denominan imágenes de 1 bit en mapa de bits porque tienen una profundidad de bits de 1.
+                p El modo Mapa de #[i bits] utiliza uno de los dos valores de color (blanco o negro) para representar los píxeles de una imagen. Las imágenes en este modo se denominan imágenes de 1 #[i bit] en mapa de #[i bits] porque tienen una profundidad de #[i bits] de 1.
                 .row
                   .col-12
                     .p-4.bg-c8
@@ -266,7 +266,7 @@
             h2 1.4 Formatos
           .row.align-items-center.mb-5
             .col.order-2.order-md-1(data-aos="fade-right")
-              p.mb-0 Photoshop permite el uso de imágenes vectoriales como también de formatos en mapa de bits, porque cuenta con funciones para ambos; además, soporta una gran cantidad de formatos de archivo desde su panel de herramientas: #[b Abrir], #[b Guardar], #[b Guardar como], #[b Importar] y #[b Exportar], los cuales permiten trabajar fácilmente en varias áreas de diseño.
+              p.mb-0 Photoshop permite el uso de imágenes vectoriales como también de formatos en mapa de #[i bits], porque cuenta con funciones para ambos; además, soporta una gran cantidad de formatos de archivo desde su panel de herramientas: #[b Abrir], #[b Guardar], #[b Guardar como], #[b Importar] y #[b Exportar], los cuales permiten trabajar fácilmente en varias áreas de diseño.
             .col-md-auto.mb-4.mb-md-0.order-1.order-md-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema1/img10.svg", style="width: 180px", alt="").m-auto
@@ -283,19 +283,19 @@
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
-                        p.mb-0 #[b BMP:] Windows bitmap.
+                        p.mb-0 #[b BMP:] Windows #[i bitmap].
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
-                        p.mb-0 #[b IFF:] Interchange File Format.
+                        p.mb-0 #[b IFF:] #[i Interchange File Format].
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
-                        p.mb-0 #[b GIF:] Formato de intercambio de gráficos.
+                        p.mb-0 #[b GIF:] formato de intercambio de gráficos.
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
-                        p.mb-0 #[b PCX:] PiCture Exchange.
+                        p.mb-0 #[b PCX:] #[i PiCture Exchange].
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
@@ -307,11 +307,11 @@
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
-                        p.mb-0 #[b JPEG:] Joint Photographic Experts Group.
+                        p.mb-0 #[b JPEG:] #[i Joint Photographic Experts Group].
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |
-                        p.mb-0 #[b TIFF:] Tagged Image File Format.
+                        p.mb-0 #[b TIFF:] #[i Tagged Image File Format].
                       li.d-flex.mb-0
                         i.fas.fa-pencil-alt(style="color: #00AEEF")
                         |

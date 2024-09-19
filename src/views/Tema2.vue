@@ -27,7 +27,7 @@
                   .lista-ol--cuadro__vineta
                     span A.
                   |
-                  p.mb-0 #[b Ventana documento] muestra el archivo en el que se trabaja. Las ventanas documento se pueden organizar como fichas y, en ciertos casos, también se pueden agrupar y acoplar.
+                  p.mb-0 #[b Ventana documento] muestra el archivo en el que se trabaja. Las Ventanas documento se pueden organizar como fichas y, en ciertos casos, también se pueden agrupar y acoplar.
                 li.d-flex
                   .lista-ol--cuadro__vineta
                     span B.
@@ -178,7 +178,7 @@
                   .lista-ol--cuadro__vineta
                     span D.
                   |
-                  p.mb-0 #[b El panel herramientas] incluye utilidades para crear y editar imágenes, ilustraciones, elementos de página, etc. Las herramientas relacionadas están agrupadas. Este menú es el más utilizado por los usuarios de Photoshop, tanto a nivel profesional como principiante, porque es simple, dinámico, claro y de fácil manejo para el usuario; está ubicado al lado izquierdo del programa y tiene ciertas herramientas que cuentan con característica seleccionables que se encuentran en el menú contextual Opciones, algunas poseen un menú desplegable y se pueden identificar porque tienen un ícono en forma de triángulo pequeño, ubicado en la parte inferior derecha de la herramienta, dicho menú se despliega dándole clic.
+                  p.mb-0 #[b El panel Herramientas] incluye utilidades para crear y editar imágenes, ilustraciones, elementos de página, etc. Las herramientas relacionadas están agrupadas. Este menú es el más utilizado por los usuarios de Photoshop, tanto a nivel profesional como principiante, porque es simple, dinámico, claro y de fácil manejo para el usuario; está ubicado al lado izquierdo del programa y tiene ciertas herramientas que cuentan con característica seleccionables que se encuentran en el menú contextual Opciones, algunas poseen un menú desplegable y se pueden identificar porque tienen un ícono en forma de triángulo pequeño, ubicado en la parte inferior derecha de la herramienta, dicho menú se despliega dándole clic.
             .col-lg-2(data-aos="fade-left")
               figure
                 img(src="@/assets/curso/tema2/img3.svg", style="width: 200px", alt="").m-auto
