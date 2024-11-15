@@ -38,7 +38,7 @@
               figure.mb-4
                 img(src="@/assets/curso/tema1/img3.svg", style="width: 100px", alt="").m-auto
               p.text-center #[b Ilustradores]
-              p.text-center.mb-0 Photoshop le permite emplear el mouse como si fuera un pincel sobre un lienzo real, debido a que posee gran variedad de pinceles que simulan el uso real del artista, generando diversas texturas y formas que le permiten trabajar como lo harían con herramientas tradicionales.
+              p.text-center.mb-0 Photoshop le permite emplear el #[i mouse] como si fuera un pincel sobre un lienzo real, debido a que posee gran variedad de pinceles que simulan el uso real del artista, generando diversas texturas y formas que le permiten trabajar como lo harían con herramientas tradicionales.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/img2.png", style="width: 350px", alt="").m-auto
@@ -54,7 +54,7 @@
             p.mb-0 Son muy útiles al momento de crear diseños gráficos, porque le permiten visualizar en tiempo real el resultado del proyecto, se puede trabajar en paralelo en varias mesas de trabajo en un mismo lienzo, sin necesidad de abrir dos ventanas independientes, como sucedía en las versiones anteriores de Photoshop.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema1/img3.png", style="width: 350px", alt="").m-auto
+              img(src="@/assets/curso/tema1/img4.png", style="width: 350px", alt="").m-auto
       .tarjeta.color-acento-botones.p-4(titulo="Adobe Stock")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -65,7 +65,7 @@
             p.mb-0 Es una nueva galería que contiene imágenes, ilustraciones y gráficos, exentos de derechos de autor y de alta calidad, que podrán ser utilizados en sus bocetos con una marca de agua que automáticamente al ser comparada, se actualizará en sus diseños.
           .col-lg-5
             figure
-              img(src="@/assets/curso/tema1/img4.png", style="width: 350px", alt="").m-auto
+              img(src="@/assets/curso/tema1/img3.png", style="width: 350px", alt="").m-auto
       .tarjeta.color-acento-botones.p-4(titulo="Exportación de mesas de trabajo")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -95,7 +95,7 @@
           p.mb-0 #[b A. Mejoras de selección]
     .row.align-items-center.mb-5
       .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
-        p La herramienta de selección de objetos ha sido aún más perfeccionada, mejorando la detección y selección de elementos como el cielo, el agua, el suelo natural, las plantas y la arquitectura. Simplemente pase el mouse sobre el objeto y haga clic para realizar la selección.
+        p La herramienta de selección de objetos ha sido aún más perfeccionada, mejorando la detección y selección de elementos como el cielo, el agua, el suelo natural, las plantas y la arquitectura. Simplemente pase el #[i mouse] sobre el objeto y haga clic para realizar la selección.
         p Puede refinar aún más esta selección, en el espacio de trabajo Seleccionar y aplicar máscara, donde podrá realizar ajustes adicionales.
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -128,7 +128,7 @@
           .col-auto
             .p-4.bg-c7
               p.text-center.mb-0 #[b macOS]: Mayús + Supr - #[b Windows]: Mayús + Retroceso
-        p Sin embargo, si está utilizando la herramienta Lazo o cualquier otra herramienta de Photoshop, haga clic con el botón derecho del mouse para acceder al menú contextual y seleccione Eliminar y rellenar selección, para eliminar objetos no deseados de la imagen.
+        p Sin embargo, si está utilizando la herramienta Lazo o cualquier otra herramienta de Photoshop, haga clic con el botón derecho del #[i mouse] para acceder al menú contextual y seleccione Eliminar y rellenar selección, para eliminar objetos no deseados de la imagen.
         p.mb-0 Puede eliminar fácilmente objetos o personas de las imágenes o retocarlas, incluso si tienen fondos complejos.
     .row
       .col-12

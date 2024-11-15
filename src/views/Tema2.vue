@@ -147,7 +147,7 @@
                         .col-auto.bg-c6
                           .p-2
                             p.mb-0 #[b Ventana]
-                      p.mb-0 En este menú encuentra las acciones para agregar líneas guías, las cuales le sirven para delimitar su área de trabajo, también cuenta con los comandos de Aumentar y Reducir.
+                      p.mb-0 Este menú cuenta con los comandos que corresponden con los paneles, el tipo de vista del espacio de trabajo y los diversos proyectos que está ejecutando.
                     .col-lg-6
                       figure
                         img(src="@/assets/curso/tema2/img14.png", style="width: 400px", alt="").m-auto

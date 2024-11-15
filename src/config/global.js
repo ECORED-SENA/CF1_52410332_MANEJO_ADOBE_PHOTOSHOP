@@ -245,11 +245,6 @@ export default {
       link: 'https://helpx.adobe.com/es/stock/faq.html',
     },
     {
-      referencia:
-        'Adobe Systems Software Ireland Ltd. (2015). Formación y asistencia de Adobe Stock / Preguntas frecuentes. ',
-      link: 'https://helpx.adobe.com/es/stock/faq.html',
-    },
-    {
       referencia: 'Adobe. (2023). Galerías de herramientas. ',
       link: 'https://helpx.adobe.com/co/photoshop/using/tools.html ',
     },
